@@ -1,0 +1,59 @@
+.articleContainer {
+    width: 100%;
+    height: 600px;
+    padding: 10px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.articleTitle{
+    text-decoration: none;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.articleBody {
+    max-height: 100%;
+    overflow: auto;
+    height: 600px;
+}
+
+.articleBody div {
+    margin-bottom: 10px;
+}
+
+.articleBody a {
+    display: inline-block;
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 5px 0;
+    font-size: 24px;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    line-height: 1.6;
+    transition: background-color 0.5s;
+}
+
+.articleBody :hover {
+    background-color: rgb(254, 241, 224);
+}
+
+.tagContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.articleTagsSquare {
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    background-color: azure;
+}
+
+.no-data {
+    height: 600px;
+}
